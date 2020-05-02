@@ -3,6 +3,7 @@ body {
     background-color: black;
 }
 
+
 .zone {
     color:#FFF;
     font-size:1em;
@@ -16,7 +17,7 @@ li {
 }
 
 a {
-    color: white;
+    color: yellow;
     text-decoration: none;
 }
     
@@ -33,63 +34,123 @@ a {
 
 
 .bandmi{
-    font-family: 'Jockey One', sans-serif;
-    font-size: 150px;
-    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 180px;
+    text-align: left;
     margin-top: 10rem;
     padding: 40px;
     justify-content: center;
     align-items: center;
+    font-weight: bolder;
+    color: yellow;
+}
+
+
+.bandmijr{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    padding: 40px;
+    color: yellow;
+    margin-top: -60px;
+    margin-left: 20px;
 }
 
 /* Section Styles */
 
+
+
 /* Section one styles */
 .one {
-    border: 2px solid white;
+   background-color: black;
+   font-family: 'Fjalla One', sans-serif;
     height: 25rem;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fas {
+    font-size: 5rem;
+    margin-top: 90px;
+}
+
+.banner {
+    background-color:yellow;
+    color: black;
+    height: 50px;
+}
+
+.believe {
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+p {
+font-size: 18px;
+margin: 20px;
+color: yellow;
+}
+
+#believe {
+    text-align: center;
+    margin-top: 30px;
 }
 
 
 /* Section two styles */
 
 .two {
-    background-color: black;
-    height: 25rem;
+    background-color: white;
+    height: 35rem;
 }
 
+
+.banner2 {
+    background-color:yellow;
+    color: black;
+    height: 40px;
+}
+.twoWords{
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
 
 /* Section three styles */
 
 .three {
+    background:linear-gradient(to right, rgb(145, 255, 194), rgb(255, 247, 242));
     background-color: white;
-    height: 25rem;
+    height: 35rem;
 }
 
 /* Section four styles */
 
 .four {
+    background:linear-gradient(to right, rgb(255, 255, 243), rgb(255, 192, 156));
     background-color: black;
     height: 25rem;
 }
 
 
 
-/* Section five styles */
-
-.five{
-    background-color: white;
-    height: 25rem;
-}
 
 
 
 /* Footer Styles */
 
 
-footer {
-    text-align: center;
+/* Section five styles */
+
+.five{
+    background-color: black;
+    height: 25rem;
 }
+
 
 
 
@@ -107,15 +168,48 @@ footer {
 
 }
 
+/*  Extra Small Devices  */
+
+@media only screen and (max-width: 370px) { 
+    .bandmi{
+        font-family: 'Jockey One', sans-serif;
+        font-size: 30px;
+        margin-left: -10px;
+        text-align: center;
+        margin-top: 10rem;
+    }
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px) { 
     .bandmi{
         font-family: 'Jockey One', sans-serif;
-        font-size: 90px;
+        font-size: 70px;
         text-align: center;
         margin-top: 10rem;
     }
+
+    /* Section one styles */
+
+
+ 
+ .row {
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .fas {
+     font-size: 2rem;
+     margin-top:70px;
+ }
+ 
+ 
+ p {
+ font-size: 8px;
+ margin: 8px;
+ color: yellow;
+ }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -125,9 +219,12 @@ footer {
         font-size: 90px;
         text-align: center;
         margin-top: 10rem;
-        padding: 40px;
+        padding: 30px;
         justify-content: center;
         align-items: center;
     }
+
+
+ 
  }
 
