@@ -1,84 +1,107 @@
 body {
     margin: 0 auto;
+    background-color: black;
 }
 
 .zone {
-    /*padding:30px 50px;*/
-    /*cursor:pointer;*/
     color:#FFF;
-    font-size:2em;
-    border-radius:4px;
-    border:1px solid #bbb;
-    transition: all 0.3s linear;
+    font-size:1em;
 }
 
-.zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
 
-/***********************************************************************
- *  Nav Bar
- **********************************************************************/
-.main-nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    font-size: 0.7em;
-}
-
-@media only screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 0.5em;
-        padding: 0;
-    }
-}
-
-.push {
-    margin-left: auto;
-}
+/* Header Styles */
 
 li {
     padding: 20px;
 }
 
 a {
-    color: #f5f5f6;
+    color: white;
     text-decoration: none;
 }
     
 
+.header{
+    height: 60rem;
+    background:url("./images/bandmi-photo.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
+.bandmi{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 9rem;
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+/* Section Styles */
+
+/* Section one styles */
+.one {
+    border: 2px solid white;
+    height: 25rem;
+}
+
+
+/* Section two styles */
+
+.two {
+    background-color: black;
+    height: 25rem;
+}
+
+
+/* Section three styles */
+
+.three {
+    background-color: white;
+    height: 25rem;
+}
+
+/* Section four styles */
+
+.four {
+    background-color: black;
+    height: 25rem;
+}
+
+
+
+/* Section five styles */
+
+.five{
+    background-color: white;
+    height: 25rem;
+}
+
+
+
+/* Footer Styles */
 
 
 footer {
     text-align: center;
-    background-image: linear-gradient(to right, rgb(2, 189, 255), rgb(19, 255, 92));
-}
-
-.grid-wrapper{
-    height: 25rem;
-}
-
-.green {
-    border: 2px solid black;
-}
-
-.white {
-    border: 2px solid black;
-}
-
-.pink {
-    border: 2px solid black;
-}
-.yellow {
-    border: 2px solid black;
 }
 
 
-.blue {
-    border: 2px solid black;
+
+
+/* Responsive Styles */
+
+
+/* Header responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .nav { 
+        font-size: 0.5em;
+        padding: 0;
+    }
+
 }
+
+
