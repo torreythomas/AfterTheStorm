@@ -31,12 +31,15 @@ a {
 }
 
 
+
 .bandmi{
     font-family: 'Jockey One', sans-serif;
-    font-size: 9rem;
+    font-size: 150px;
     text-align: center;
     margin-top: 10rem;
-
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Section Styles */
@@ -104,4 +107,27 @@ footer {
 
 }
 
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) { 
+    .bandmi{
+        font-family: 'Jockey One', sans-serif;
+        font-size: 90px;
+        text-align: center;
+        margin-top: 10rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only scren and (max-width: 768px) { 
+    .bandmi{
+        font-family: 'Jockey One', sans-serif;
+        font-size: 90px;
+        text-align: center;
+        margin-top: 10rem;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+ }
 
