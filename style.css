@@ -10,6 +10,11 @@ body {
 }
 
 
+img{
+    width: 90px;
+    height: 90px;
+}
+
 /* Header Styles */
 
 li {
@@ -20,6 +25,44 @@ a {
     color: yellow;
     text-decoration: none;
 }
+
+i {
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+i:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+
+
+.btn-lg:hover  {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+   background-color: black;
+   border-color: 2px solid black;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
     
 
 .header{
@@ -70,11 +113,15 @@ a {
 .row {
     display: flex;
     justify-content: space-around;
+    font-size: 18px;
+margin: 20px;
+color: yellow;
 }
 
 .fas {
     font-size: 5rem;
     margin-top: 90px;
+    color: white;
 }
 
 .banner {
@@ -89,11 +136,7 @@ a {
 }
 
 
-p {
-font-size: 18px;
-margin: 20px;
-color: yellow;
-}
+
 
 #believe {
     text-align: center;
@@ -105,14 +148,14 @@ color: yellow;
 
 .two {
     background-color: white;
-    height: 35rem;
+    height: 25rem;
 }
 
 
 .banner2 {
     background-color:yellow;
     color: black;
-    height: 40px;
+    height: 50px;
 }
 .twoWords{
     color: black;
@@ -120,23 +163,50 @@ color: yellow;
     text-align: center;
 }
 
+
+.black{
+    color: black;
+}
+
+.text {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+
 /* Section three styles */
 
 .three {
-    background:linear-gradient(to right, rgb(145, 255, 194), rgb(255, 247, 242));
-    background-color: white;
-    height: 35rem;
-}
-
-/* Section four styles */
-
-.four {
-    background:linear-gradient(to right, rgb(255, 255, 243), rgb(255, 192, 156));
     background-color: black;
-    height: 25rem;
+    height: 35rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
+.three-header {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+}
 
+.three-header-two {
+    color: yellow;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+}
+
+.three-text {
+ font-size: 25px;
+ font-family: 'Times New Roman', Times, serif;
+ margin: 10px;
+ text-align: center;
+ padding: 30px;
+}
 
 
 
@@ -147,10 +217,24 @@ color: yellow;
 /* Section five styles */
 
 .five{
-    background-color: black;
+    background:linear-gradient(to right, rgb(255, 255, 243), rgb(255, 192, 156));
     height: 25rem;
 }
 
+.jumbotron {
+    color: yellow;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    background-color: transparent;
+}
+
+
+.display-4 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Fjalla One', sans-serif;
+}
 
 
 
