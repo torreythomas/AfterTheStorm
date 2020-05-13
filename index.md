@@ -81,7 +81,7 @@
 
     </div>
 </div>
-<h1 class="recommended"> Recommended articles to help you through </h1>
+<h1 class="recommended"> Recommended articles to help guide you through </h1>
 <div class="container-two">
   <div class="row row-2">
     <div class="col-sm-6 ">
