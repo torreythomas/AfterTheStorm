@@ -28,7 +28,9 @@
   </head>
 
 <body>
-
+  <div class="btn-container">
+    <a class="btn btn-primary btn-lg" href="https://mailchi.mp/865e06e3c521/afterthestorm" role="button"> <em>hear from us. </em> </a>
+  </div>
  <div class="grid-wrapper">   
 <h1 class="title animate__animated animate__fadeIn animate__slower" id="centeredText">  After the Storm.   </h1>
      </div> 
@@ -40,9 +42,8 @@
 
 
 <!-- Sub Header Sections -->
-
  <div class="section-one-grid-wrapper">
-  
+  <h1 class="recommended"> What We Are</h1>
   <div class="container">
     <div class="row">
       <div class="col-sm-6 section-one-child-text animate__animated animate__fadeIn animate__slower">
@@ -61,7 +62,7 @@
     </div>
   </div>
 </div>
-
+<h1 class="recommended"> Mission </h1>
 <div class="container">
   <div class="row">
     <div class="col-sm-6 ">
@@ -80,9 +81,8 @@
 
     </div>
 </div>
-
-
-<div class="container">
+<h1 class="recommended"> Recommended articles to help you through </h1>
+<div class="container-two">
   <div class="row row-2">
     <div class="col-sm-6 ">
      <a class="coolLinks" href="https://medium.com/personal-growth/advice-on-anxiety-no-one-tells-you-4cf397843200"> Advice On Anxiety No One Tells You  </a>
@@ -98,9 +98,6 @@
           </div>
 
   </div>
-</div>
-<div class="btn-container">
-  <a class="btn btn-primary btn-lg" href="https://mailchi.mp/865e06e3c521/afterthestorm" role="button"> <em>hear from us. </em> </a>
 </div>
 </div>
 
