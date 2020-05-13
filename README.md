@@ -19,5 +19,5 @@ After the Storm is a startup app idea that would seek to connect young-adults go
 ## Version
 * Version 1.0.0
 
-## Auhthor
-*Torrey Thomas
+## Author
+* Torrey Thomas
