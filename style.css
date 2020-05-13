@@ -83,3 +83,172 @@ h2 {
     font-size: 20px;
     font-style: italic;
 }
+
+.btn-container {
+    display: flex;
+justify-content: center;
+}
+
+.btn {
+    font-family: 'Amatic SC', cursive;
+    width: 200px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: transparent;
+    border: #D4A3BA;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #D4A3BA;
+    color: black;
+}
+
+.container-two{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    width: 79vw;
+    margin-left:144px;
+    height: 100vh;
+}
+
+.section-two-child-image {
+    width: 330px;
+    height: 330px;
+    padding: 10px;
+    object-fit: fill;
+    margin-left: 120px;
+}
+
+
+.coolLinks{
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+
+.coolLinks:hover {
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: pink;
+    text-align: center;
+  }
+  
+  .coolLinks-hover::after {
+    content: '';
+    color: black;
+    box-shadow:pink;
+    border-radius: inherit;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+
+
+  .coolLinks2{
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    color: yellow;
+    font-size: 55px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+.coolLinks2:hover {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: skyblue;
+    text-shadow: 2px 2.5px  grey;
+    font-size: 55px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: right;
+}
+
+
+.coolLinks3{
+    text-decoration: line-through;
+    font-family: 'Amatic SC', cursive;
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.coolLinks3:hover {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: gold;
+    text-shadow: 2px 2.5px  black;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.coolLinks3{
+    text-decoration: line-through;
+    font-family: 'Amatic SC', cursive;
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.coolLinks3:hover {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: gold;
+    text-shadow: 2px 2.5px  black;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.coolLinks4{
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    color: chocolate;
+    font-size: 70px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+
+.coolLinks4:hover {
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: lavender;
+    text-align: center;
+  }
